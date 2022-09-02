@@ -79,6 +79,7 @@ body {
   cursor: pointer;
   text-transform: capitalize;
 }
+
 .btn.toggle-btn {
   border-width: 1px;
   border-color: #d3d3d3;
@@ -98,6 +99,10 @@ body {
 .btn__primary {
   color: #fff;
   background-color: #000;
+}
+.btn__primary:hover {
+  background-color: #4d4d4d;
+  transition: 0.3s;
 }
 .btn-group {
   display: flex;
