@@ -3,7 +3,7 @@ import React from "react";
 function Hi(props) {
   function GetName() {
     let username = prompt("What is your name?");
-    if (username !== "") {
+    if (username !== "" && username !== null) {
       alert(`Hi, ${username}!`);
     } else {
       alert("You need to have a name!!");
