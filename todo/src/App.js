@@ -29,11 +29,7 @@ function App(props) {
     <div className="todoapp stack-large">
       <h1>TodoMatic</h1>
       <Form addTask={addTask} />
-      <div className="filters btn-group stack-exception">
-        <FilterButton />
-        <FilterButton />
-        <FilterButton />
-      </div>
+
       <h2 id="list-heading">{headingText}</h2>
       <ul
         role="list"
